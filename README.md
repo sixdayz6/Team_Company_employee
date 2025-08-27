@@ -1,3 +1,5 @@
+# Team_Company_employee
+회사 직원 관리 리스트
 Employee Management System
 이 프로젝트는 자바의 HashMap 컬렉션을 사용하여 직원의 정보를 효율적으로 관리하는 간단한 시스템입니다. 사번을 키(key)로, 직원 정보를 값(value)으로 저장하고, 조회, 수정, 삭제 등의 기능을 구현할 수 있도록 설계했습니다.
 
