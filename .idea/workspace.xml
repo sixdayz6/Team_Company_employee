@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52ab409f-b9f9-4526-8be6-9f769406137f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CompanyEmployeeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyEmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="52ab409f-b9f9-4526-8be6-9f769406137f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +42,8 @@
     "last_opened_file_path": "D:/IT/디지털/Java/Team_Company_employee",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "advanced.settings",
-    "to.speed.mode.migration.done": "true"
+    "to.speed.mode.migration.done": "true",
+    "애플리케이션.CompanyEmployeeApp.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
