@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-    // Lớp Employee đại diện cho một nhân viên
+
     class Employee {
         private String employeeID;
         private String name;
@@ -82,13 +82,13 @@ import java.util.Scanner;
 
         // Hiển thị thông tin nhân viên
         public void displayInfo() {
-            System.out.println("Mã NV: " + employeeID);
-            System.out.println("Tên: " + name);
-            System.out.println("Chức vụ: " + position);
-            System.out.println("Phòng ban: " + department);
-            System.out.println("Số điện thoại: " + phoneNumber);
-            System.out.println("Email: " + email);
-            System.out.println("Lương: " + salary);
+            System.out.println("사원 ID: " + employeeID);
+            System.out.println("이름: " + name);
+            System.out.println("직책: " + position);
+            System.out.println("부서: " + department);
+            System.out.println("전화번호: " + phoneNumber);
+            System.out.println("이메일: " + email);
+            System.out.println("금여: " + salary);
             System.out.println("-----------------------------------");
         }
     }

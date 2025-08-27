@@ -7,20 +7,20 @@ public class CompanyEmployeeManager {
         employees = new ArrayList<>();
     }
 
-    // Thêm nhân viên mới
+
     public void addEmployee(Employee employee) {
         employees.add(employee);
-        System.out.println("Đã thêm nhân viên thành công!");
+        System.out.println("직원 추가 성공!");
     }
 
     // Hiển thị tất cả nhân viên
     public void displayAllEmployees() {
         if (employees.isEmpty()) {
-            System.out.println("Danh sách nhân viên trống!");
+            System.out.println("직원 목록이 비어 있습니다!");
             return;
         }
 
-        System.out.println("===== DANH SÁCH NHÂN VIÊN =====");
+        System.out.println("===== 직원 목록 =====");
         for (Employee emp : employees) {
             emp.displayInfo();
         }
@@ -36,7 +36,6 @@ public class CompanyEmployeeManager {
         return null;
     }
 
-    // Cập nhật thông tin nhân viên
     public boolean updateEmployee(String employeeID, String name, String position,
                                   String department, String phoneNumber, String email, double salary) {
         Employee emp = findEmployeeByID(employeeID);
@@ -52,7 +51,7 @@ public class CompanyEmployeeManager {
         return false;
     }
 
-    // Xóa nhân viên
+
     public boolean deleteEmployee(String employeeID) {
         Employee emp = findEmployeeByID(employeeID);
         if (emp != null) {
@@ -62,9 +61,10 @@ public class CompanyEmployeeManager {
         return false;
     }
 
-    // Lấy số lượng nhân viên
+
     public int getEmployeeCount() {
         return employees.size();
     }
 }
+
 
